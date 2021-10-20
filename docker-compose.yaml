@@ -19,7 +19,7 @@ services:
         constraints:
           - node.role == worker
     entrypoint: /usr/bin/php
-    image: manyogil/phpinfo:santander-optimizado
+    image: primitivocomendador/phpinfo:santander-optimizado
     ports: 
       - 8080:8080    
 version: '3.8'
